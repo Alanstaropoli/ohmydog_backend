@@ -1,0 +1,16 @@
+org\acme\ohmydog\entities\Sesion.class
+org\acme\ohmydog\MiApp.class
+org\acme\ohmydog\services\TurnoService.class
+org\acme\ohmydog\requests\TurnoRequest.class
+org\acme\ohmydog\controllers\AuthController.class
+org\acme\ohmydog\controllers\TurnoController.class
+org\acme\ohmydog\requests\UsuarioRequest.class
+org\acme\ohmydog\services\UsuarioService.class
+org\acme\ohmydog\repository\UsuarioRepository.class
+org\acme\ohmydog\entities\Turno.class
+META-INF\panache-archive.marker
+org\acme\ohmydog\requests\LoginRequest.class
+org\acme\ohmydog\services\AuthService.class
+org\acme\ohmydog\entities\Usuario.class
+org\acme\ohmydog\repository\TurnoRepository.class
+org\acme\ohmydog\controllers\UsuarioController.class
