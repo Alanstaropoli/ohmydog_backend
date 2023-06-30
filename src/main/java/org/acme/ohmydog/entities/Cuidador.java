@@ -23,6 +23,10 @@ public class Cuidador extends PanacheEntityBase {
     @Column(name = "zona")
     private String zona;
 
+    public Cuidador() {
+
+    }
+
     public Cuidador(String nombre, String apellido, Long dni, Long telefono, String mail, String zona) {
         this.nombre = nombre;
         this.apellido = apellido;

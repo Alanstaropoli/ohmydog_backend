@@ -23,6 +23,10 @@ public class Paseador extends PanacheEntityBase {
     @Column(name = "zona")
     private String zona;
 
+    public Paseador() {
+
+    }
+
     public Paseador(String nombre, String apellido, Long dni, Long telefono, String email, String zona) {
         this.nombre = nombre;
         this.apellido = apellido;

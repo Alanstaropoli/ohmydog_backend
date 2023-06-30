@@ -23,7 +23,12 @@ public class Guarderia extends PanacheEntityBase {
     @Column(name = "direccion")
     private String direccion;
 
-    public Guarderia(String nombre, String disponibilidad, Long telefono, String email, String localidad, String direccion) {
+    public Guarderia() {
+
+    }
+
+    public Guarderia(String nombre, String disponibilidad, Long telefono, String email, String localidad,
+            String direccion) {
         this.nombre = nombre;
         this.disponibilidad = disponibilidad;
         this.telefono = telefono;

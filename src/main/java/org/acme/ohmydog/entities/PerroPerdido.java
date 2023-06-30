@@ -24,6 +24,9 @@ public class PerroPerdido {
     @Column(name = "estado")
     private String estado;
 
+    public PerroPerdido() {
+    }
+
     public PerroPerdido(String nombre, String raza, String zona, LocalDate fecha, String email) {
         this.nombre = nombre;
         this.raza = raza;
